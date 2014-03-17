@@ -12,7 +12,6 @@ $.fn.longty=function(settings){
 
 	this.css({"position":"absolute","left":"0","margin-top":"0","white-space":"nowrap"});
 
-
 	return this.each(function(){
 
 		var object=$(this);
