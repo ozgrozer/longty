@@ -1,0 +1,43 @@
+<!doctype html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>jQuery Longty</title>
+		<script src="jquery.1.8.3.min.js"></script>
+		<script src="jquery.easing.1.3.min.js"></script>
+		<script src="jquery.longty.1.0.min.js"></script>
+		<script>
+			$(function(){
+				$("h1").longty();
+				$(".longty").longty({"speed":25});
+				$(".autoLongty").longty({"startMode":"auto","speed":10});
+			});
+		</script>
+		<style>
+			body{font:12px Verdana;margin:50px;background-color:#ddd;}
+
+			.w30{float:left;width:30%;}
+			.w60{float:left;width:60%;margin-left:10%;}
+
+		</style>
+	</head>
+	<body>
+
+		<h1>Very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very long caption</h1>
+
+		<br><br><br><br>
+
+		<div class="w30">
+			<span class="longty">Danish tootsie roll applicake. Apple pie I love gummies applicake marshmallow sweet roll chupa chups sweet ice cream. Bonbon cheesecake pudding marshmallow danish danish I love bonbon topping.</span>
+		</div>
+		
+		<div class="w60">
+			<div class="longty">Bonbon chocolate bar jelly. Toffee wafer fruitcake jelly sesame snaps. Brownie toffee cake I love I love I love marzipan I love. I love I love cheesecake gingerbread.</div>
+		</div>
+
+		<br><br><br><br>
+		
+		<h2 class="autoLongty">I love danish donut candy canes apple pie candy canes pastry. Muffin oat cake cotton candy ice cream bonbon jujubes sugar plum tootsie roll liquorice. Donut cheesecake sweet.</h2>
+
+	</body>
+</html>
