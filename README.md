@@ -9,14 +9,14 @@ jQuery Longty allows to us easily display long texts without breaking the page t
 Simple Usage
 ----------
 
-```bash
+```javascript
 $("selector").longty();
 ```
 
 
 Parameters
 -----------
-```bash
+```javascript
 startMode:"hover", // auto or mouse hover
 speed:100, // Pixels per 1 second
 waitingDelay:50, // Waiting delay per slide ( in ms )
