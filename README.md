@@ -1,6 +1,8 @@
 [jQuery Longty](http://ozgrozer.github.io/longty/)
 ==============
 
+[![Join the chat at https://gitter.im/ozgrozer/longty](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ozgrozer/longty?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Every web designer had a problem that the overflow texts. And everyone has a solution to solve this problem. You can lower the text-size, shorten character count or the best way use overflow:hidden in css...
 
 jQuery Longty allows to us easily display long texts without breaking the page typography.
